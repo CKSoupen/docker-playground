@@ -11,8 +11,8 @@ Or if you have a better understanding of docker and just want to deploy a stack 
 
 ## Explore the multiple docker apps
 Just copy the app you want
- build ```docker-compose build``` and 
-  deploy ```docker-compose up```
+ build with ```docker-compose build``` & 
+  deploy with ```docker-compose up```
 
 1. FastApi (With Uvicorn Server) [Python Devs] 
 2. React App with Node.js Server [JS Devs]
@@ -20,4 +20,4 @@ Just copy the app you want
 4. Django (python framework) + Postgres (db) [Python Devs]
 
 
-### As a standard all code will be stored in the app/ folder locally and copied into the src/ folder on the docker container.
+### As a standard all /app directory will be the work directory (WORKDIR)
