@@ -14,10 +14,11 @@ Just copy the app you want
  build with ```docker-compose build``` & 
   deploy with ```docker-compose up```
 
-1. FastApi (With Uvicorn Server) [Python Devs] 
-2. React App with Node.js Server [JS Devs]
-3. React App with Nginx Server [JS Devs]
-4. Django (python framework) + Postgres (db) [Python Devs]
+1. FastApi
+2. React App
+3. Vue App
+4. Django + Postgres
+5. 
 
 
 > As a standard all /app directory will be the work directory (WORKDIR) 
