@@ -1,4 +1,4 @@
-# docker-playground
+# docker-playground 🐳
 
 This repo contains all my docker applications. 
 
