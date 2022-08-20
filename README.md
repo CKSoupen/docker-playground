@@ -20,4 +20,7 @@ Just copy the app you want
 4. Django (python framework) + Postgres (db) [Python Devs]
 
 
-### As a standard all /app directory will be the work directory (WORKDIR)
+> As a standard all /app directory will be the work directory (WORKDIR) 
+
+
+> As another standard, the respective application/framework will be copied over for example /api will be copied into /app.
