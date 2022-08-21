@@ -25,7 +25,7 @@ Just copy the app you want
 
 ### Databases
 
-- Postgres (rel)
+- Postgresql (rel)
 - MySQL (rel)
 - MongoDB (non-rel)
 - Cockroach DB (non-rel)
