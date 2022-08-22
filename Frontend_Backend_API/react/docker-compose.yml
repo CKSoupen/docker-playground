@@ -1,7 +1,9 @@
 version: "3.9"  # optional since v1.27.0
 services:
   ck-frontend:
-    build: ./client
+    build: 
+      dockerfile: Dockerfile
+      context: ./client
     container_name: ck-react
     command: npm start /client
     ports:
