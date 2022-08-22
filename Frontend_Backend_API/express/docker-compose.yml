@@ -2,11 +2,11 @@ version: "3.9"  # optional since v1.27.0
 services:
   ck-api:
     build:
-      context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.dev
+      context: ./api
     container_name: ck-express-ts
-    command: npm run start
+    command: npm run start:dev
     ports:
-      - "8080:8080"
+      - "8081:3001"
     volumes:
-      - ./:/app/api
+      - ./api:/app/api
