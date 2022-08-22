@@ -5,7 +5,7 @@ services:
       dockerfile: Dockerfile
       context: ./client
     container_name: ck-react
-    command: npm start /client
+    command: npm start ./client
     ports:
       - "3000:3000"
     volumes:
