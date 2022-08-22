@@ -1,10 +1,12 @@
 version: "3.9"  # optional since v1.27.0
 services:
   ck-fastapi:
-    build: .
+    build:
+      dockerfile: Dockerfile
+      context: ./api
     container_name: ck-fastapi
     command: uvicorn api.main:app  --reload --host 0.0.0.0 --port 8080
     ports:
       - "8080:8080"
     volumes:
-      - .:/src
+      - .:/app
