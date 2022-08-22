@@ -5,6 +5,6 @@ services:
     container_name: ck-react
     command: npm start /client
     ports:
-      - "8000:8000"
+      - "3000:3000"
     volumes:
       - ./client:/app/client
