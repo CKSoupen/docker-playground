@@ -1,17 +1,19 @@
 
 # dependencies
 **/node_modules
+**/data
 **/.gitignore
 /.pnp
 .pnp.js
+
 # testing
 /coverage
 
 # production
 **/build
-**/data
 
 # misc
+**/.vscode
 .DS_Store
 .env.local
 .env.development.local
