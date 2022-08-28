@@ -10,9 +10,20 @@ To get started, download Docker desktop and follow the [README.md](https://githu
 Or if you have a better understanding of docker and just want to deploy a stack quickly...
 
 ## Explore Multiple Docker Images & Apps
-Just copy the app you want
- build with ```docker-compose build``` & 
-  deploy with ```docker-compose up```
+Clone the repo
+Clone the repo\
+
+```git
+git clone https://github.com/CKSoupen/docker-playground.git {project_name}
+```
+
+
+Just remove everything except the app you want to get started with.
+ Build & deploy your environment by running 
+ ```bash
+ docker-compose up
+ ``` 
+
 
 ### Frontend/Backend/API Images
 
